@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productGallery {
+    width: 1440px;
+    height: fit-content;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.titleGallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.containerOfBlocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.colorBlock {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(103, 250, 238);
+    transform: rotate(45deg);
+}
+
+.central {
+    width: 10px;
+    height: 10px;
+
+}
+
+.navInTheGallery > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.textNavigation {
+    background-color: inherit;
+    border: none;
+    border-bottom: 5px lightgray solid;
+}
+
+.activeTextNavigation {
+    border-bottom: 5px rgb(103, 250, 238) solid;
+}
+
+.imageContainer {
+    width: 1340px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
